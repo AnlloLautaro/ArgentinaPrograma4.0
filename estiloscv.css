@@ -1,0 +1,60 @@
+* {
+font-weight: 100; color: black; 
+font-style: italic;
+}
+#foto-perfil {
+    position: absolute;
+    right: 0.7em; 
+    width: 10em;
+    height: fit-content;
+    border-radius: 50%;
+    overflow: hidden;
+    outline: 4px solid black ;
+    
+}
+#foto-perfil img {
+    width: 100%;
+}
+h1 {
+    font-style: normal; 
+}
+h2 {
+    font-style: normal; 
+}
+h3 {
+    font-style: normal; 
+}
+#cv {
+    border: solid rgb(255, 255, 255);
+    box-shadow: 0 0 3px black;
+    margin-top: 10px; 
+    margin-left: 10px;
+    margin-right: 1000px;
+    margin-bottom : 2px;
+    background-image: url('https://previews.123rf.com/images/saicle/saicle1802/saicle180200050/94982152-fondo-geométrico-abstracto-tecnología-gris-claro-diseño-vectorial-mínimo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    padding: 1em 0.5em;
+    position: relative;
+}
+
+div {
+    font-weight: bold;
+    font-size: large;
+}
+.colapsed .item {
+    height: 1.2em;
+    white-space: nowrap;
+    display: none;
+}
+#exp-laboral .item {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#mostrar {
+    transition: transform 0.2s ease-out;
+}
+.rotated {
+    transform: rotate(90deg); 
+} 
